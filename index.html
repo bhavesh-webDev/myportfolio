@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- icon  cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- google font poppins -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/mylogo.png" height="50px" alt="" class="logo">
+                <p><span> </span></p>
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                    <li><a href="images/Bhavesh's Resume .pdf" download class="btn1">Download CV</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars bars" onclick="openmenu()"></i>
+
+            </nav>
+
+
+            <div class="header-text">
+                <p>Front-End DEVELOPER</p>
+                <h1>Hi, I 'm <span>Bhavesh</span> <br> Gholap From India</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------about------------------------------------------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/user.png"></div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+
+                    <p>Hello, I'm Bhavesh Gholap, currently a 2nd-year Computer Science student. I am proficient in
+                        HTML, CSS, and JavaScript, specializing in crafting modern, user-friendly interfaces. As an
+                        eager learner, I am enthusiastic about contributing my skills to dynamic projects.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing UI/UX Interfaces for Web Apps</li>
+                        </ul>
+                        <ul>
+                            <li><span>Web Development</span><br>Developing Web App Interfaces for clients</li>
+                        </ul>
+                        <ul>
+                            <li><span>Technologies I Use</span><br>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Wordpress</li>
+                                    <li>Python</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 -November - current</span><br>Front-End Developer Intern </li>
+                        </ul>
+                        <!-- <ul>
+                            <li><span>2019 - 2021</span><br>web developer</li>
+                        </ul> -->
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School - SSC</span><br>Swami Vivekananda International School</li>
+                        </ul>
+                        <ul>
+                            <li><span>HSC- Stream Science</span><br>T.P. Bhatia college of Science</li>
+                        </ul>
+                        <ul>
+                            <li><span>Current Bachelors of Computer Science </span><br>Nirmala Memorial Foundation
+                                College of Science </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------Services----------------------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web development encompasses the creation and maintenance of websites and web applications. It
+                        involves various technologies such as HTML, CSS, JavaScript, and server-side languages like PHP
+                        or Python. Web developers design, build, and optimize websites to ensure functionality,
+                        usability, and an engaging user experience across different devices and browsers.
+
+
+
+
+
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design combines aesthetics and functionality to optimize user interaction with digital
+                        products. UI (User Interface) design focuses on visual elements like layouts and typography,
+                        ensuring intuitive navigation. UX (User Experience) design emphasizes user journey and
+                        satisfaction, enhancing usability through research, prototyping, and testing to create seamless
+                        and enjoyable experiences.
+
+
+
+
+
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App development involves creating software applications for various platforms like mobile,
+                        desktop, or web. Developers utilize programming languages and frameworks to design, build, and
+                        deploy functional applications. This process includes coding, testing, and optimizing apps to
+                        meet user needs, ensuring smooth functionality and a positive user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------portfolio----------------------------------------------------------------------------  -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>interior Designer Website</h3>
+                        <p>
+                            click below to view the project
+                        </p>
+                        <a href="https://www.highstandards.in"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------------------------------------------------------------------contact-------------------------------------------------------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bhaveshgholap00@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9004252521</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/wonderingjew_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Bhavesh's Resume .pdf" download class="btn">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form onsubmit="validate()">
+                        <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <input type="tel" name="contactNo" id="contactNo" placeholder="Your Phone Number" required>
+                        <textarea name="message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button class="btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2024 Bhavesh. All rights reserved.
+        </div>
+
+    </div>
+
+
+
+    <script src="main.js">
+
+
+    </script>
+</body>
+
+</html>
